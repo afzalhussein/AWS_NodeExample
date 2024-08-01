@@ -1,0 +1,21 @@
+{
+    "name": "xray_demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"No test specified\" && exit 1"
+    },
+    "author": "Syed",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "2.1665.0",
+        "aws-xray-sdk":"3.9.0",
+        "aws-xray-sdk-core": "3.9.0",
+        "aws-xray-sdk-express": "3.9.0",
+        "body-parser": "1.20.2",
+        "express": "4.19.2",
+        "request": "2.88.2",
+        "winston": "3.13.1"
+    }
+}

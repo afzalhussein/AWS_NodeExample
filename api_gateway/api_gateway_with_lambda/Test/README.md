@@ -1,0 +1,21 @@
+# API Gateway Lambda Integration
+
+- Retrieve the API gateway invoke URL from API Gateway, after deployment
+- Using Postman, send a GET to the new REST API resource.
+  - Select GET as method, paste the URL for pets
+  - Type: No Auth
+  - Body: Select result type as JSON
+  - Click Send
+- Using Postman, send a POST to the new REST API resource.
+  - Error
+    - Select POST as method, paste the URL for pets
+    - Type: No Auth
+    - Body: Select result type as JSON
+    - Click Send
+  - Good
+    - Select POST as method, paste the URL for pets
+    - Body: Choose result type: raw (Text)
+    - Click Send
+- Validate in DDB Table
+  - In DynamoDB->Items->Pets, check Autopreview
+  - All items shall be listed successfully.

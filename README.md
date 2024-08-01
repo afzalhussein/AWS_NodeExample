@@ -35,3 +35,7 @@ Data file to load data into pets table. Used by `create_table.js`
 ## delete_table.sh
 
 Delete table shell script
+
+## API Create
+
+After login to AWS  Console, choose APIs, Create. Choose Protocol (+REST, Websocket). Create new API Choose (New API, Clone from existing API, +Import from Swagger or Open API 3, Example API). In Import from Swagger or Open API 3, paste the definition file `example_api_default_swagger.json`. Leave Endpoint Type as Regional. Click Select Swagger File to select the file.
