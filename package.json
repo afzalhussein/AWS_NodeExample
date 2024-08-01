@@ -1,0 +1,24 @@
+{
+  "name": "list_ec2_instances",
+  "version": "1.0.0",
+  "description": "List EC2 instance using Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "\"echo \\\"No test specified yet\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afzalhussein/AWS_NodeExample.git"
+  },
+  "keywords": [
+    "AWS",
+    "Node",
+    "EC2"
+  ],
+  "author": "Syed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afzalhussein/AWS_NodeExample/issues"
+  },
+  "homepage": "https://github.com/afzalhussein/AWS_NodeExample#readme"
+}
