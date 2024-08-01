@@ -17,6 +17,9 @@
   ],
   "author": "Syed",
   "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.1665.0"
+  },
   "bugs": {
     "url": "https://github.com/afzalhussein/AWS_NodeExample/issues"
   },
