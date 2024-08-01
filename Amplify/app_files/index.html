@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Amplify App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            html,
+            body {
+                font-family: 'Amazon Ember', 'Helvetica', 'sans-serif';
+                margin: 0;
+                padding: 0;
+            }
+
+            a {
+                color: #ff9900;
+            }
+
+            h1 {
+                font-weight: 300;
+            }
+
+            hr {
+                height: 1px;
+                background: lightgray;
+                border: none;
+                margin: 1em 0;
+            }
+
+            .app {
+                width: 100%;
+                padding: 0 1em;
+                box-sizing: border-box;
+            }
+
+            .app-header {
+                color: white;
+                text-align: center;
+                background: linear-gradient(30deg, #f90 55%, #ffc300);
+                padding: 2em 0;
+                box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+            }
+
+            .app-body {
+                max-width: 800px;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            .app-body button {
+                background-color: #ff9900;
+                color: white;
+                text-transform: uppercase;
+                padding: 1em 2em;
+                border: none;
+                cursor: pointer;
+                transition: opacity 0.3s ease;
+            }
+
+            .app-body button:hover {
+                opacity: 0.8;
+            }
+
+            .loading {
+                opacity: 0.6;
+                pointer-events: none;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="app">
+            <div class="app-header">
+                <h1>Welcome to Amplify App</h1>
+            </div>
+            <div class="app-body">
+                <section>
+                    <h1>Mutation Results</h1>
+                    <button id="MutationEventButton">Add Data</button>
+                    <div id="MutationResult"></div>
+                    <hr />
+                </section>
+
+                <section>
+                    <h1>Query Results</h1>
+                    <div id="QueryResult"></div>
+                    <hr />
+                </section>
+
+                <section>
+                    <h1>Subscription Results</h1>
+                    <div id="SubscriptionResult"></div>
+                </section>
+            </div>
+        </div>
+        <script src="main.bundle.js"></script>
+    </body>
+
+</html>
