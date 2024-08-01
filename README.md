@@ -19,3 +19,19 @@ If no configuration keys are provided:
 If configured:
 `Total Reservations: No of Reservations`
 `Name: name Pub. IP: publicIp`
+
+## lambda_crud.js
+
+This will be triggered using lambda proxy integration with REST API Gateway
+
+## create_table.js
+
+The pets table with data from `pets.json`
+
+## pets.json
+
+Data file to load data into pets table. Used by `create_table.js`
+
+## delete_table.sh
+
+Delete table shell script
