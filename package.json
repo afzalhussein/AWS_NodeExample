@@ -20,6 +20,13 @@
   "dependencies": {
     "aws-sdk": "2.1665.0"
   },
+  "devDependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.624.0",
+    "@types/node": "^22.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "@typescript-eslint/types": "^8.0.1",
+    "typescript": "^5.5.4"
+  },
   "bugs": {
     "url": "https://github.com/afzalhussein/AWS_NodeExample/issues"
   },
